@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Home.css";
-import Emojibutton from '../../components/emoji-button/Emojibutton';
+import Emojibutton from '../../components/Emoji-button/Emojibutton'
 import ColorButton from '../../components/Color-button/Colorbutton';
 import imgRotate from "./rotate.png.png";
 

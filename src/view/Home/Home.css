@@ -1,0 +1,73 @@
+.header{
+    text-align: center;
+    color: #817275;
+}
+.header-highlight{
+color: #eb3443;
+}
+.app-description{
+ text-align: center;
+ color: #6b6162;
+}
+.emoji-container{
+
+width: 140px;
+height: 140px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+border-radius: 20px;
+border: 1px solid blueviolet;
+box-shadow:0 4px 6px rgba(0,0,0,0.1);
+}
+.emoji-picker{
+width:fit-content;
+border-radius: 0 solid #595959;
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(116, 123, 56);
+position: absolute;
+top: 200px;
+display: flex;
+flex-direction: column;
+height: 200px;
+flex-wrap: wrap;
+}
+.slider-container{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+
+
+}
+
+.slider{
+margin-top: 10px;
+width: 100px;
+}
+.color-picker{
+width:fit-content;
+border-radius: 0 solid #595959;
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(101, 102, 32);
+position: absolute;
+top: 200px;
+display: flex;
+flex-direction: column;
+height: 200px;
+flex-wrap: wrap;   
+right: 0; 
+}
+.angle-rotate{
+    display: flex;
+    justify-content: center;
+}
+.rotate-image{
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
